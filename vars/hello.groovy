@@ -1,3 +1,3 @@
 def world(){
-    cecho "Hello,  World!"
+    echo "Hello,  World!"
 }
