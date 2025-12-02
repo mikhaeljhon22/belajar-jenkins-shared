@@ -1,7 +1,7 @@
-def call(Map.config){
+def call(Map config){
     if(connfig.type == "maven"){
         mavenPipeline()
     }else{
-        println("Pipeline type not supported")
+        println("Pipeline type not supportedg")
     }
 }
