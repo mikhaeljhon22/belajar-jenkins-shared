@@ -6,13 +6,13 @@ pipeline{
     }
 
     stages{
-        stage("Hello Groovy"){
-            steps{
-                script{
-                    Output.hello(this,"groovy")
-                }
-            }
-        }
+        // stage("Hello Groovy"){
+        //     steps{
+        //         script{
+        //             Output.hello(this,"groovy")
+        //         }
+        //     }
+        // }
         stage("Hello World"){
             steps{
                 script{
