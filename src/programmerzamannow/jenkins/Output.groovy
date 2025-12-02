@@ -1,7 +1,7 @@
 package programmerzamannow.jenkins
 
 class Output {
-    static def hello(String name){
+    static def hello(steps, String name){
         println("Hello ${name}")
     }
 }
