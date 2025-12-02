@@ -1,3 +1,5 @@
-def call(String command){
-    sh "mvn ${command}"
-}
+def call(List command){
+    for(command in commands){
+        sh "mvn ${command}"
+    }
+g}
